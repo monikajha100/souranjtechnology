@@ -1,0 +1,330 @@
+
+
+/* Search Bar Styling */.body{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.menu
+{
+    width: 100%;
+    height: 50px;
+    background-color:dodgerblue;
+}
+.menu li
+{
+    list-style: none;
+    width: 160px;
+    height: 50px;
+    background-color: dodgerblue;
+    margin:5px;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 0%;
+    
+} 
+
+.menu li a
+{
+color: white;
+display: block;
+text-decoration: none;
+}
+.menu li:hover{
+    background-color: black;
+}
+.logo{
+    width: 80%;
+}
+ .mon li
+{
+    list-style: none;
+    width: 160px;
+    height: 50px;
+    background-color: dodgerblue;
+    margin:5px;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 0%;
+    
+} 
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.search-container li:hover{
+    background-color:darkcyan;
+}
+
+.search-button {
+    padding: 1px 1px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 30px; 
+}
+
+.search-button:hover {
+    background-color: #218838;
+    margin-top: 40%;
+} 
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 800px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 2%;
+
+}
+
+/* Each slide */
+.slide {
+    display: none;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color:#778ca3;
+    
+}
+
+/* Show the first slide by default */
+.active {
+    display: block;
+}
+
+/* Arrow buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: #000(0, 0, 0, 0.5);
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+
+}
+
+/* Add hover effect to buttons */
+.prev:hover, .next:hover {
+    background-color:(0, 0, 0, 0.8);
+}
+
+.mon
+{
+    width: 100%;
+    height: 20px;
+    margin-left: 13%;
+}
+.mon li
+{
+    list-style: none;
+    width: 400px;
+    height: 150px;
+    background-color: dodgerblue;
+    margin:5px;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+    margin-left: 8px;
+    margin-top: 0%;
+    
+} 
+.mon li a
+{
+color: #fff;
+display: block;
+text-decoration: none;
+font-size: 25px;
+margin-top: 15%;
+
+}
+.mon li:hover{
+    background-color:#000;
+}
+.counter-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.counter-container h1 {
+    font-size: 48px;
+    color: #333;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+.counter-container p {
+    font-size: 20px;
+    color: #555;
+}
+.slideshow2-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 800px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.image-container img {
+    width: 100%; /* Set image width to 100% of its container */
+    height: 80%; /* Keep the aspect ratio */
+
+} 
+.box1
+{
+    width: 100%;
+    height: 80%;
+    background-color:gray;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+ 
+.box1 li
+{
+    list-style: none;
+    line-height: 15px;
+    float: left;
+    margin: 100px;
+    font-size: 20px;
+    margin-left: 6%;
+
+    
+} 
+ 
+ .box1 li a
+ {
+color: #fff;
+display: block;
+text-decoration: none;
+margin-left: 0%;
+margin: 50px;
+margin-top: 5%;
+border-bottom: 10px;
+font-size: 20px;
+align-items: center;
+}
+.box1 li:hover{
+    background-color:gray;
+}
+.big 
+{
+    width: 100%;
+    height: 80%;
+    background-color:#fff;
+    margin-top: 2%;
+    margin-bottom: 10;
+    
+}
+.box2
+{
+    width: 100%;
+    height: 70%;
+    background-color:black;
+    margin-top: 1px;
+    
+}
+
+.box3 
+{
+    list-style: none;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #000;
+    background-color: gray;
+    margin:5px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 5px;
+
+    float: left;
+    margin-top: 8%;
+    
+    
+} 
+    
+        
+.box3 a {
+    
+    text-decoration: none; /* लिंक के नीचे की लाइन हटाना */
+    color: #3498db; /* लिंक का रंग */
+    font-style: italic;
+}
+.box3 a:hover {
+    color: #e74c3c; /* लिंक पर होवर करने पर रंग बदलना */
+   } 
+.scrolling-text {
+    width: 100%; /* Set the width of the container */
+    height: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    direction: rtl; /* Set direction to right-to-left */
+    font-size: 80px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+} .scrolling-text p {
+    display: inline-block;
+    padding: 10px;
+    animation: scroll 30s linear infinite;
+    margin-top: 1%;
+
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.scroll
+{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    background-color:#ffff;
+    margin:5px;
+    text-align: center;
+    line-height: 50px;
+    
+    margin-left: 5px;
+
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 2%;
+    margin-left: 12%;
+    
+    
+} 
+    
